@@ -1,40 +1,36 @@
 <template>
-	<view class="application">
-		<div class="search">
-			<u-search placeholder="日照香炉生紫烟" v-model="keyword" @search="searchSubmit"></u-search>
-		</div>
-		<div class="article-list">
-			<u-list @scrolltolower="scrolltolower">
-				<u-list-item v-for="item in articleList" :key="item.id">
-					<u-cell :title="item.title" isLink :label="item.description">
-						<template #icon>
-							<u-avatar shape="square" size="35" src="https://cdn.uviewui.com/uview/album/1.jpg"
-								customStyle="margin: -3px 5px -3px 0"></u-avatar>
-						</template>
-						<template #right-icon>
-							<u-icon name="arrow-right"></u-icon>
-						</template>
-					</u-cell>
-				</u-list-item>
-			</u-list>
-		</div>
-		<u-back-top :scroll-top="scrollTop" top="50" icon="arrow-up" :iconStyle="scrollTopStyle.iconStyle"
-			:customStyle="scrollTopStyle.customStyle"></u-back-top>
-	</view>
+	<Layout mode='zoom' show="show">
+		<view class="application">
+			<div class="search">
+				<u-search placeholder="日照香炉生紫烟" v-model="keyword" @search="searchSubmit"></u-search>
+			</div>
+			<div class="article-list">
+				<u-list @scrolltolower="scrolltolower">
+					<u-list-item v-for="item in articleList" :key="item.id">
+						<u-cell :title="item.title" isLink :label="item.description">
+							<template #icon>
+								<u-avatar shape="square" size="35" src="https://cdn.uviewui.com/uview/album/1.jpg"
+									customStyle="margin: -3px 5px -3px 0"></u-avatar>
+							</template>
+							<template #right-icon>
+								<u-icon name="arrow-right"></u-icon>
+							</template>
+						</u-cell>
+					</u-list-item>
+				</u-list>
+			</div>
+		</view>
+	</Layout>
 </template>
 
 <script setup>
+	import Layout from '../../components/Layout/Layout.vue'
 	import {
 		onLoad,
 		onPageScroll
 	} from '@dcloudio/uni-app'
-	onLoad(() => {
-		// loadmore()
-	})
-	onPageScroll(e => {
-		scrollTop.value = e.scrollTop
-		console.log(e.scrollTop)
-	})
+	onLoad(() => {})
+	onPageScroll(() => {})
 	import {
 		reactive,
 		ref
@@ -42,13 +38,11 @@
 
 	const keyword = ref(null)
 	const scrollTop = ref(0)
+	const show = ref(true)
 	const scrollTopStyle = reactive({
 		iconStyle: {
 			fontSize: '32rpx',
 			color: '#2979ff'
-		},
-		customStyle: {
-			background: 'rbga(0,0,0,0.1)',
 		}
 	})
 	const searchSubmit = (e) => {
@@ -110,6 +104,10 @@
 	const scrolltolower = () => {
 		console.log('触底了')
 	}
+	// onPageScroll((e) => {
+	// 	scrollTop.value = e.scrollTop
+	// 	console.log(e.scrollTop)
+	// })
 </script>
 
 <style lang="scss">
