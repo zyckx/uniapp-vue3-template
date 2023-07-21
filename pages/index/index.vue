@@ -1,23 +1,20 @@
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<u-alert :title="title" type="primary"></u-alert>
+	<Layout mode='zoom' show="show">
+		<view class="content">
+			<image class="logo" src="/static/logo.png"></image>
+			<view class="text-area">
+				<u-alert :title="title" type="primary"></u-alert>
+			</view>
 		</view>
-	</view>
+	</Layout>
 </template>
 
-<script>
-	export default {
-		data() {
-			return {
-				title: '天下万般兵刃，唯有过往伤人最深——亚索',
-			}
-		},
-		onLoad() {
-
-		}
-	}
+<script setup>
+	import {
+		ref
+	} from "vue";
+	import Layout from '../../components/Layout/Layout.vue'
+	const title = ref('天下万般兵刃，唯有过往伤人最深——亚索', )
 </script>
 
 <style>

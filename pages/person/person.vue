@@ -1,31 +1,32 @@
 <template>
-	<view class="person">
-		<div class="my-bg">
-		</div>
-		<div class="my-card">
-			<div class="person-info">
-				<u-avatar text="北" fontSize="18" randomBgColor></u-avatar>
-				<div class="user-name">
-					星河
+	<Layout mode='zoom' show="show">
+		<view class="person">
+			<div class="my-bg">
+			</div>
+			<div class="my-card">
+				<div class="person-info">
+					<u-avatar text="北" fontSize="18" randomBgColor></u-avatar>
+					<div class="user-name">
+						星河
+					</div>
+					<div class="motto">
+						一年精通三年熟练五年入门
+					</div>
 				</div>
-				<div class="motto">
-					一年精通三年熟练五年入门
+				<div class="menu">
+
+					<u-cell-group>
+						<u-cell class="menu-item" v-for="item in menuLists" :key="item.title" :title="item.title"
+							:icon="item.icon" isLink arrow-direction="right" :border="false"></u-cell>
+					</u-cell-group>
 				</div>
 			</div>
-			<div class="menu">
-
-				<u-cell-group>
-					<u-cell class="menu-item" v-for="item in menuLists" :key="item.title" :title="item.title"
-						:icon="item.icon" isLink arrow-direction="right" :border="false"></u-cell>
-
-				</u-cell-group>
-
-			</div>
-		</div>
-	</view>
+		</view>
+	</Layout>
 </template>
 
 <script setup>
+	import Layout from '../../components/Layout/Layout.vue'
 	import {
 		reactive,
 		ref

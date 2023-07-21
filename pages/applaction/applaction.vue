@@ -25,6 +25,8 @@
 
 <script setup>
 	import Layout from '../../components/Layout/Layout.vue'
+	import BackTop from '../../components/BackTop/BackTop.vue'
+
 	import {
 		onLoad,
 		onPageScroll
@@ -37,7 +39,6 @@
 	} from "vue";
 
 	const keyword = ref(null)
-	const scrollTop = ref(0)
 	const show = ref(true)
 	const scrollTopStyle = reactive({
 		iconStyle: {
@@ -100,14 +101,22 @@
 		id: 13,
 		title: "我是测试标题啊",
 		description: "我是介绍啊"
+	}, {
+		id: 14,
+		title: "我是测试标题啊",
+		description: "我是介绍啊"
+	}, {
+		id: 15,
+		title: "我是测试标题15啊",
+		description: "我是介绍啊"
+	}, {
+		id: 16,
+		title: "我是测试标题16啊",
+		description: "我是介绍啊"
 	}])
 	const scrolltolower = () => {
 		console.log('触底了')
 	}
-	// onPageScroll((e) => {
-	// 	scrollTop.value = e.scrollTop
-	// 	console.log(e.scrollTop)
-	// })
 </script>
 
 <style lang="scss">

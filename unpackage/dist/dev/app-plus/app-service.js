@@ -2029,7 +2029,7 @@ if (uni.restoreGlobal) {
     }
     return target;
   };
-  const _sfc_main$n = {
+  const _sfc_main$o = {
     name: "u-icon",
     data() {
       return {};
@@ -2123,7 +2123,7 @@ if (uni.restoreGlobal) {
       /* CLASS */
     );
   }
-  const __easycom_0$6 = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["render", _sfc_render$h], ["__scopeId", "data-v-1c933a9a"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-icon/u-icon.vue"]]);
+  const __easycom_0$6 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["render", _sfc_render$h], ["__scopeId", "data-v-1c933a9a"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-icon/u-icon.vue"]]);
   const props$b = {
     props: {
       // 是否展示组件
@@ -2203,7 +2203,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  const _sfc_main$m = {
+  const _sfc_main$n = {
     name: "u-transition",
     data() {
       return {
@@ -2264,7 +2264,7 @@ if (uni.restoreGlobal) {
       /* CLASS, STYLE, HYDRATE_EVENTS */
     )) : vue.createCommentVNode("v-if", true);
   }
-  const __easycom_0$5 = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["render", _sfc_render$g], ["__scopeId", "data-v-0573594d"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-transition/u-transition.vue"]]);
+  const __easycom_0$5 = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["render", _sfc_render$g], ["__scopeId", "data-v-0573594d"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-transition/u-transition.vue"]]);
   const props$a = {
     props: {
       // 显示文字
@@ -2309,7 +2309,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  const _sfc_main$l = {
+  const _sfc_main$m = {
     name: "u-alert",
     mixins: [mpMixin, mixin, props$a],
     data() {
@@ -2437,8 +2437,8 @@ if (uni.restoreGlobal) {
       /* STABLE */
     }, 8, ["show"]);
   }
-  const __easycom_0$4 = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["render", _sfc_render$f], ["__scopeId", "data-v-478768e8"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-alert/u-alert.vue"]]);
-  const _sfc_main$k = {
+  const __easycom_0$4 = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["render", _sfc_render$f], ["__scopeId", "data-v-478768e8"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-alert/u-alert.vue"]]);
+  const _sfc_main$l = {
     data() {
       return {
         title: "天下万般兵刃，唯有过往伤人最深——亚索"
@@ -2462,7 +2462,7 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const PagesIndexIndex = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["render", _sfc_render$e], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/pages/index/index.vue"]]);
+  const PagesIndexIndex = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["render", _sfc_render$e], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/pages/index/index.vue"]]);
   const props$9 = {
     props: {
       // 文字颜色
@@ -2502,7 +2502,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  const _sfc_main$j = {
+  const _sfc_main$k = {
     name: "u-link",
     mixins: [mpMixin, mixin, props$9],
     computed: {
@@ -2537,7 +2537,7 @@ if (uni.restoreGlobal) {
       /* TEXT, STYLE */
     );
   }
-  const __easycom_1$2 = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["render", _sfc_render$d], ["__scopeId", "data-v-dedad317"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-link/u-link.vue"]]);
+  const __easycom_1$2 = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["render", _sfc_render$d], ["__scopeId", "data-v-dedad317"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-link/u-link.vue"]]);
   const value = {
     computed: {
       // 经处理后需要显示的值
@@ -2722,7 +2722,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  const _sfc_main$i = {
+  const _sfc_main$j = {
     name: "u--text",
     mixins: [mpMixin, mixin, value, props$8],
     emits: ["click"],
@@ -2850,8 +2850,8 @@ if (uni.restoreGlobal) {
       /* STYLE */
     )) : vue.createCommentVNode("v-if", true);
   }
-  const uvText = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["render", _sfc_render$c], ["__scopeId", "data-v-5fec1d8b"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-text/u-text.vue"]]);
-  const _sfc_main$h = {
+  const uvText = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["render", _sfc_render$c], ["__scopeId", "data-v-5fec1d8b"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-text/u-text.vue"]]);
+  const _sfc_main$i = {
     name: "u--text",
     mixins: [mpMixin, mixin, props$8],
     components: {
@@ -2885,7 +2885,7 @@ if (uni.restoreGlobal) {
       customStyle: _ctx.customStyle
     }, null, 8, ["type", "show", "text", "prefixIcon", "suffixIcon", "mode", "href", "format", "call", "openType", "bold", "block", "lines", "color", "decoration", "size", "iconStyle", "margin", "lineHeight", "align", "wordWrap", "customStyle"]);
   }
-  const __easycom_1$1 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["render", _sfc_render$b], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u--text/u--text.vue"]]);
+  const __easycom_1$1 = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["render", _sfc_render$b], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u--text/u--text.vue"]]);
   const props$7 = {
     props: {
       // 头像图片路径(不能为相对路径)
@@ -2965,7 +2965,7 @@ if (uni.restoreGlobal) {
     }
   };
   const base64Avatar = "data:image/jpg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMraHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjREMEQwRkY0RjgwNDExRUE5OTY2RDgxODY3NkJFODMxIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjREMEQwRkY1RjgwNDExRUE5OTY2RDgxODY3NkJFODMxIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NEQwRDBGRjJGODA0MTFFQTk5NjZEODE4Njc2QkU4MzEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NEQwRDBGRjNGODA0MTFFQTk5NjZEODE4Njc2QkU4MzEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYG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";
-  const _sfc_main$g = {
+  const _sfc_main$h = {
     name: "u-avatar",
     mixins: [mpMixin, mixin, props$7],
     data() {
@@ -3086,7 +3086,7 @@ if (uni.restoreGlobal) {
       /* CLASS, STYLE */
     );
   }
-  const __easycom_0$3 = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["render", _sfc_render$a], ["__scopeId", "data-v-14a988f2"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-avatar/u-avatar.vue"]]);
+  const __easycom_0$3 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["render", _sfc_render$a], ["__scopeId", "data-v-14a988f2"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-avatar/u-avatar.vue"]]);
   const props$6 = {
     props: {
       color: {
@@ -3120,7 +3120,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  const _sfc_main$f = {
+  const _sfc_main$g = {
     name: "u-line",
     mixins: [mpMixin, mixin, props$6],
     computed: {
@@ -3157,7 +3157,7 @@ if (uni.restoreGlobal) {
       /* STYLE */
     );
   }
-  const __easycom_0$2 = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["render", _sfc_render$9], ["__scopeId", "data-v-bbd9963c"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-line/u-line.vue"]]);
+  const __easycom_0$2 = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["render", _sfc_render$9], ["__scopeId", "data-v-bbd9963c"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-line/u-line.vue"]]);
   const props$5 = {
     props: {
       // 标题
@@ -3268,7 +3268,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  const _sfc_main$e = {
+  const _sfc_main$f = {
     name: "u-cell",
     data() {
       return {};
@@ -3386,7 +3386,7 @@ if (uni.restoreGlobal) {
       _ctx.border ? (vue.openBlock(), vue.createBlock(_component_u_line, { key: 0 })) : vue.createCommentVNode("v-if", true)
     ], 14, ["hover-class"]);
   }
-  const __easycom_1 = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["render", _sfc_render$8], ["__scopeId", "data-v-b4243719"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-cell/u-cell.vue"]]);
+  const __easycom_1 = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["render", _sfc_render$8], ["__scopeId", "data-v-b4243719"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-cell/u-cell.vue"]]);
   const props$4 = {
     props: {
       // 分组标题
@@ -3401,7 +3401,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  const _sfc_main$d = {
+  const _sfc_main$e = {
     name: "u-cell-group",
     mixins: [mpMixin, mixin, props$4]
   };
@@ -3437,8 +3437,8 @@ if (uni.restoreGlobal) {
       /* CLASS, STYLE */
     );
   }
-  const __easycom_2 = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["render", _sfc_render$7], ["__scopeId", "data-v-30c8e4c7"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-cell-group/u-cell-group.vue"]]);
-  const _sfc_main$c = {
+  const __easycom_2 = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["render", _sfc_render$7], ["__scopeId", "data-v-30c8e4c7"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-cell-group/u-cell-group.vue"]]);
+  const _sfc_main$d = {
     __name: "person",
     setup(__props) {
       vue.useCssVars((_ctx) => ({
@@ -3501,7 +3501,7 @@ if (uni.restoreGlobal) {
       };
     }
   };
-  const PagesPersonPerson = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/pages/person/person.vue"]]);
+  const PagesPersonPerson = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/pages/person/person.vue"]]);
   const props$3 = {
     props: {
       // 搜索框形状，round-圆形，square-方形
@@ -3624,7 +3624,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  const _sfc_main$b = {
+  const _sfc_main$c = {
     name: "u-search",
     mixins: [mpMixin, mixin, props$3],
     data() {
@@ -3806,7 +3806,7 @@ if (uni.restoreGlobal) {
       /* STYLE */
     );
   }
-  const __easycom_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["render", _sfc_render$6], ["__scopeId", "data-v-ed789780"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-search/u-search.vue"]]);
+  const __easycom_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["render", _sfc_render$6], ["__scopeId", "data-v-ed789780"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-search/u-search.vue"]]);
   const props$2 = {
     props: {
       // 用于滚动到指定item
@@ -3816,7 +3816,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  const _sfc_main$a = {
+  const _sfc_main$b = {
     name: "u-list-item",
     mixins: [mpMixin, mixin, props$2],
     data() {
@@ -3888,7 +3888,7 @@ if (uni.restoreGlobal) {
       vue.renderSlot(_ctx.$slots, "default", {}, void 0, true)
     ], 10, ["anchor"]);
   }
-  const __easycom_4 = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["render", _sfc_render$5], ["__scopeId", "data-v-32197ac9"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-list-item/u-list-item.vue"]]);
+  const __easycom_4 = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["render", _sfc_render$5], ["__scopeId", "data-v-32197ac9"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-list-item/u-list-item.vue"]]);
   const props$1 = {
     props: {
       // 控制是否出现滚动条，仅nvue有效
@@ -3964,7 +3964,7 @@ if (uni.restoreGlobal) {
       // vue下，是否开启虚拟列表
     }
   };
-  const _sfc_main$9 = {
+  const _sfc_main$a = {
     name: "u-list",
     mixins: [mpMixin, mixin, props$1],
     watch: {
@@ -4053,8 +4053,8 @@ if (uni.restoreGlobal) {
       ])
     ], 44, ["scroll-into-view", "scroll-top", "lower-threshold", "upper-threshold", "show-scrollbar", "enable-back-to-top", "scroll-with-animation"]);
   }
-  const __easycom_5 = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$4], ["__scopeId", "data-v-9ad03670"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-list/u-list.vue"]]);
-  const _sfc_main$8 = {
+  const __easycom_5 = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["render", _sfc_render$4], ["__scopeId", "data-v-9ad03670"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/node_modules/uview-plus/components/u-list/u-list.vue"]]);
+  const _sfc_main$9 = {
     __name: "Layout",
     props: {
       mode: {
@@ -4083,7 +4083,40 @@ if (uni.restoreGlobal) {
       };
     }
   };
-  const Layout = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/components/Layout/Layout.vue"]]);
+  const Layout = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/components/Layout/Layout.vue"]]);
+  const _sfc_main$8 = {
+    __name: "BackTop",
+    setup(__props) {
+      onPageScroll((e) => {
+        formatAppLog("log", "at components/BackTop/BackTop.vue:13", e);
+        scrollTop.value = e.scrollTop;
+      });
+      const scrollTop = vue.ref(0);
+      const show = vue.ref(false);
+      vue.watchEffect(() => {
+        if (scrollTop > 50) {
+          show.value = true;
+          formatAppLog("log", "at components/BackTop/BackTop.vue:34", true);
+        } else {
+          show.value = false;
+          formatAppLog("log", "at components/BackTop/BackTop.vue:37", false);
+        }
+      });
+      return (_ctx, _cache) => {
+        return vue.openBlock(), vue.createElementBlock(
+          "view",
+          {
+            class: "back-top",
+            style: vue.normalizeStyle([show.value ? "display:none" : "display:block"])
+          },
+          null,
+          4
+          /* STYLE */
+        );
+      };
+    }
+  };
+  const BackTop = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["__scopeId", "data-v-a1300641"], ["__file", "/Users/Galaxy/Desktop/uniapp-vue3-template/components/BackTop/BackTop.vue"]]);
   const _sfc_main$7 = {
     __name: "applaction",
     setup(__props) {
@@ -4101,7 +4134,7 @@ if (uni.restoreGlobal) {
         }
       });
       const searchSubmit = (e) => {
-        formatAppLog("log", "at pages/applaction/applaction.vue:49", e);
+        formatAppLog("log", "at pages/applaction/applaction.vue:52", e);
       };
       const articleList = vue.ref([{
         id: 1,
@@ -4155,9 +4188,21 @@ if (uni.restoreGlobal) {
         id: 13,
         title: "我是测试标题啊",
         description: "我是介绍啊"
+      }, {
+        id: 14,
+        title: "我是测试标题啊",
+        description: "我是介绍啊"
+      }, {
+        id: 15,
+        title: "我是测试标题15啊",
+        description: "我是介绍啊"
+      }, {
+        id: 16,
+        title: "我是测试标题16啊",
+        description: "我是介绍啊"
       }]);
       const scrolltolower = () => {
-        formatAppLog("log", "at pages/applaction/applaction.vue:105", "触底了");
+        formatAppLog("log", "at pages/applaction/applaction.vue:120", "触底了");
       };
       return (_ctx, _cache) => {
         const _component_u_search = resolveEasycom(vue.resolveDynamicComponent("u-search"), __easycom_0$1);
@@ -4229,7 +4274,8 @@ if (uni.restoreGlobal) {
                   /* STABLE */
                 })
               ])
-            ])
+            ]),
+            vue.createVNode(BackTop)
           ]),
           _: 1
           /* STABLE */
